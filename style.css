@@ -1,0 +1,107 @@
+
+/*FONTE PARA TITULO*/
+
+@import url('https://fonts.cdnfonts.com/css/badaboom-bb');
+
+/*FONTE PARA PARAGRAFO*/
+
+@import url('https://fonts.googleapis.com/css2?family=Chokokutai&family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:darkolivegreen;
+}
+
+header{
+    background-color:rgb(44, 49, 49);
+    
+}
+a{
+    color: #e5ea08;
+    font-size: 40px;
+    text-align:center;
+    text-decoration: none;
+    padding-left: 100px;
+}
+section{
+    background-image: url(./imagens/Baclground\ teste.jpg);
+    background-size:cover;
+    height: 510px;
+    padding-top: 50px;
+}
+p{
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 300;
+  font-style: normal;
+  color: aliceblue;
+  width: 510px;
+  font-size:larger;
+}
+h2{
+    font-family: 'BadaBoom BB', sans-serif;
+    color:aliceblue;
+    font-size: 50px;
+    font-style:normal;
+}
+h4{
+    font-size: 14px;
+    color:aliceblue;
+    font-family: "Press Start 2P", system-ui;
+}
+
+.logo{
+    margin-left: 530px;
+    height: 200px;
+}
+.enormossauro{
+    display: inline-block;
+    width: 230px;
+    height: 240px;
+    color:rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-top: 30px;
+    margin-top: 100;
+    margin-left: 1000px;
+}
+
+
+.humungossaurio{
+ display: inline-block;
+ width: 310px;
+ height: 350px;
+ padding-left: 10px;
+ padding-top: 30px;
+ margin-top: 40px;
+ margin-left: 100px;
+ 
+}
+.upgrade{
+    width: 300px;
+    height: 300px;
+    color:rgb(0, 0, 0);
+}
+
+
+.clone {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-top: 30px;
+    border: 10px solid black;
+    margin-top: 40px; 
+    margin-left: 100px;
+}
+.feedback{
+    width: 230px;
+    height: 190px;
+    
+}
+
