@@ -21,8 +21,15 @@ header{
     background-color:rgb(44, 49, 49);
     
 }
-a{
+.ultimate{
     color: #e5ea08;
+    font-size: 40px;
+    text-align:center;
+    text-decoration: none;
+    padding-left: 100px;
+}
+.ultimate:hover{
+    color: #ea0808;
     font-size: 40px;
     text-align:center;
     text-decoration: none;
@@ -31,7 +38,7 @@ a{
 section{
     background-image: url(./imagens/Baclground\ teste.jpg);
     background-size:cover;
-    height: 510px;
+    height: 520px;
     padding-top: 50px;
 }
 p{
@@ -52,6 +59,7 @@ h4{
     font-size: 14px;
     color:aliceblue;
     font-family: "Press Start 2P", system-ui;
+    text-align:center;
 }
 
 .logo{
@@ -65,25 +73,42 @@ h4{
     color:rgb(0, 0, 0);
     padding-left: 10px;
     padding-top: 30px;
-    margin-top: 100;
+    margin-top: 3px;
     margin-left: 1000px;
+}
+.enormossauro:hover{
+    display: inline-block;
+    width: 230px;
+    height: 240px;
+    color:rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-top: 30px;
+    margin-bottom: 200px;
+    margin-left: 900px;
+    transition: 5s;
 }
 
 
 .humungossaurio{
  display: inline-block;
- width: 310px;
+ width: 316px;
  height: 350px;
  padding-left: 10px;
  padding-top: 30px;
  margin-top: 40px;
  margin-left: 100px;
+ margin-right:10px;
+ background-color: #3533cd;
+ border-radius: 5%;
+ box-shadow: 13px 11px 18px 2px rgba(32, 17, 34, 0.65);
  
 }
 .upgrade{
     width: 300px;
     height: 300px;
     color:rgb(0, 0, 0);
+    object-fit: cover;
+    border-radius: 51%;
 }
 
 
@@ -91,17 +116,19 @@ h4{
     display: inline-block;
     width: 300px;
     height: 300px;
-    background-color: rgb(255, 255, 255);
     color:rgb(0, 0, 0);
     padding-left: 10px;
     padding-top: 30px;
-    border: 10px solid black;
     margin-top: 40px; 
     margin-left: 100px;
 }
 .feedback{
-    width: 230px;
-    height: 190px;
+    width: 350px;
+    height: 300px;
+    margin-top: 5px;
+    object-fit: cover;
+    border-radius: 5%;
+    box-shadow: 13px 11px 18px 2px rgba(32, 17, 34, 0.65);
     
 }
 
